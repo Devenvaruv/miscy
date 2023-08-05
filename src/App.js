@@ -4,8 +4,8 @@ import './App.css';
 function App() {
   return (
     <div>
-    <p>Hello Deven</p>
-    <button>Click me</button>
+    <p className="HelloDeven">Hello Deven</p>
+    <button onClick={() => {alert("hello")}}>Click me</button>
     </div>
   );
 }
