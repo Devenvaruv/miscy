@@ -5,6 +5,7 @@ function App() {
   return (
     <div>
     <p>Hello Deven</p>
+    <button>Click me</button>
     </div>
   );
 }
