@@ -1,13 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import Login from './pages/login/Login.js'
 
 function App() {
   return (
     <div>
-    <p className="HelloDeven">Hello Deven</p>
-    <button onClick={() => {alert("hello")}}>Click me</button>
+      <Login />
+      
     </div>
   );
 }
+
 
 export default App;
